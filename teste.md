@@ -37,3 +37,7 @@ subir os arquivos
 comandos git
 git status
 git add arquivo
+---------------------
+committed
+ciar a versao do arquivo
+git commit -m "add teste.md"
