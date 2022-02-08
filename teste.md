@@ -40,4 +40,26 @@ git add arquivo
 ---------------------
 committed
 ciar a versao do arquivo
-git commit -m "add teste.md"
+git commit -m "mensagem"
+git commit -am "mensagem" todos os arquivos
+-------------------------
+visualizando logs
+git log
+git log --decorate    
+git log --author="nome"  filtrar pelo autor
+git shortlog    mostra em ordem alfabetica os autores
+git shortlog -sn quantidade de commit e nome
+git log --graph   mostra de forma grafica
+git show +hash  mostra pela hash
+---------------------------
+visualizando mudancas antes de enviar.
+git diff    mostra a modificacao
+git diff --name-only   nome somente dos aqrquivos modificados 
+----------------------------
+desfazendo coisas
+git checkout nomearquivo   retorna para antes da midificacao
+git reset HEAD nomearquivo 
+git reset --soft +hash  mata o commit mas fica no staged   
+git reset --mixed +hash   mata o comite e fica antes do staged
+git reset --hard +hash  ignora o comite e mata tudo
+teste
