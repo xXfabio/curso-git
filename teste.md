@@ -67,3 +67,15 @@ ligando repositorio local a um remoto
 git remote add origin git@github.com:xXfabio/curso-angular.git
 git branch -M main 
 git push -u origin main       envia todos os arquivos
+------------------------------
+clonando 
+git clone endereço repositorio
+-------------------------------
+fork
+------------------------------
+branch
+git checkout -b teste    cria um novo breanch
+git branch     lista os breanch
+git checkout nomeBranch   muda o branch
+git branch -D nomeBranch   deleta git 
+estou no master
