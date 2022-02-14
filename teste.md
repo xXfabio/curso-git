@@ -77,4 +77,5 @@ branch
 git checkout -b teste    cria um novo breanch
 git branch     lista os breanch
 git checkout nomeBranch   muda o branch
-git branch -D nomeBranch   deleta 
+git branch -D nomeBranch   deleta git 
+estou no master
