@@ -78,4 +78,33 @@ git checkout -b teste    cria um novo breanch
 git branch     lista os breanch
 git checkout nomeBranch   muda o branch
 git branch -D nomeBranch   deleta git 
-estou no master
+--------------------------------
+merge e rebase
+git log --graph     mostra os commit em grafico
+git merge nomeBranch  
+git rebase nomeBranch  
+---------------------------------
+gitignore
+.gitignore   cria o arquivo
+---------------------------------
+stash  quarda a modificação pra depois 
+git slash
+git stash aplay
+git slash list
+git slash clear
+----------------------------------
+criando atalhos
+git config --global alias.letraAtalho oComando
+-----------------------------------
+criando tags
+git tag    mostra todas as tags
+git tag -a 1.0.0 -m "mensagem" cria atag
+git push origin master --tag  manda a tag
+------------------------------------
+reverter commit
+git revert hashCommit
+------------------------------------
+apagamdo tags e branches remoto
+git push origin :nomeTag
+git push origin :nomeBranch
+
